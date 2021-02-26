@@ -4,7 +4,7 @@ require 'net/http'
 require 'uri'
 
 # heavily based on https://github.com/shivamb/opsgenie-gem/blob/master/lib/opsg-api.rb
-module OpsGenie
+module LiberOpsgenie
   class Sender
     def initialize(api_key)
       @api_key = api_key

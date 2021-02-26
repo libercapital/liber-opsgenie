@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module OpsGenie
+module LiberOpsgenie
   # from https://docs.opsgenie.com/docs/alert-api#create-alert
   class Alert
     P1 = 'P1'

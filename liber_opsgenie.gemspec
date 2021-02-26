@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.description = 'Liber opsgenie gem see more info @ documentations'
   s.authors     = ['MatheusGodinho']
   s.email       = 'matheus.godinho@libercapital.com.br'
-  s.files       = ['lib/sender.rb', 'lib/alert.rb']
+  s.files       = Dir['lib/**/*.rb']
   s.homepage    = 'https://libercapital.com.br'
   s.license     = 'MIT'
 end
