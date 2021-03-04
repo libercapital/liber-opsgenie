@@ -11,7 +11,7 @@ module LiberOpsgenie
     end
 
     def send(alert)
-      raise 'Alert must be an instance of OpsGenie::Alert!' unless alert.is_a?(OpsGenie::Alert)
+      raise 'Alert must be an instance of LiberOpsgenie::Alert!' unless alert.is_a?(LiberOpsgenie::Alert)
 
       uri = URI('https://api.opsgenie.com/v2/alerts')
       https = Net::HTTP.new(uri.host, uri.port)
